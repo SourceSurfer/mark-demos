@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Чистый Формат — Клининговые услуги в Москве</title>
+  <meta name="description" content="Профессиональный клининг для квартир, офисов и коммерческих помещений. Уборка после ремонта, генеральная уборка, химчистка мебели.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <!-- === Header === -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="8" fill="#2E7D5B"/>
+          <path d="M8 16L13 21L24 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Чистый Формат</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+          <li><a href="service.html" class="nav__link">Услуги</a></li>
+          <li><a href="prices.html" class="nav__link">Цены</a></li>
+          <li><a href="#works" class="nav__link">Работы</a></li>
+          <li><a href="#blog" class="nav__link">Блог</a></li>
+          <li><a href="contacts.html" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__right">
+        <a href="tel:+74951234567" class="header__phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +7 (495) 123-45-67
+        </a>
+
+        <div class="header__socials">
+          <a href="#" aria-label="ВКонтакте">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 3H3.553A.553.553 0 0 0 3 3.553v16.894c0 .305.248.553.553.553h16.894a.553.553 0 0 0 .553-.553V3.553A.553.553 0 0 0 20.447 3ZM15.35 16.92h-1.5s-.36-.04-.54-.25c-.16-.18-.62-2.02-.62-2.02s-.43-1.32-1.01-.15c-.2.4-.15 1.64-.15 1.64s0 .27-.12.42c-.14.15-.4.18-.4.18H9.96s-2.28.14-4.28-2c-2.18-2.33-4.1-6.96-4.1-6.96s-.07-.19.01-.28c.09-.1.33-.11.33-.11l2.02-.01s.19.03.32.12c.11.08.17.22.17.22s.32.81.74 1.55c.84 1.46 1.22 1.77 1.48 1.63.37-.2.26-1.84.26-1.84s.01-1.19-.37-1.42c-.3-.18-.76-.21-.82-.21-.06 0 .1-.14.41-.2.47-.09 1.3-.1 2.28-.01.76.06 1 .44 1 .44v2.8s-.05 1.23.55.87c.26-.16.87-1.11 1.5-2.26.35-.66.63-1.39.63-1.39s.06-.13.14-.18c.09-.06.21-.05.21-.05l2.12-.01s.64-.08.74.21c.11.31-.25 1.03-1.14 2.2-.15.19-.28.36-.39.5-.83 1.1-.83 1.16.03 1.96 1.64 1.53 1.98 2.27 2.04 2.36.52.87-.58.94-.58.94Z"/></svg>
+          </a>
+          <a href="#" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0h-.056Zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635Z"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+
+        <button class="burger" aria-label="Открыть меню">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- === Hero === -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__content">
+          <div class="hero__badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Работаем с 2015 года
+          </div>
+          <h1 class="hero__title">
+            Профессиональный <span>клининг</span> для дома и офиса
+          </h1>
+          <p class="hero__subtitle">
+            Уборка квартир, офисов и коммерческих помещений в Москве и области. Оценим стоимость по фото за 15 минут.
+          </p>
+
+          <div class="photo-form">
+            <h3 class="photo-form__title">Оценка стоимости по фото</h3>
+            <form data-demo-form>
+              <div class="form-group">
+                <label for="hero-name">Ваше имя</label>
+                <input type="text" id="hero-name" class="form-input" placeholder="Как к вам обращаться?" required>
+              </div>
+              <div class="form-group">
+                <label for="hero-phone">Телефон</label>
+                <input type="tel" id="hero-phone" class="form-input" placeholder="+7 (___) ___-__-__" required>
+              </div>
+              <div class="form-group">
+                <label for="hero-file">Фото помещения</label>
+                <input type="file" id="hero-file" class="form-input form-input--file" accept="image/*" multiple>
+              </div>
+              <div class="form-checkbox">
+                <input type="checkbox" id="hero-agree" required>
+                <label for="hero-agree">Согласен на обработку персональных данных в соответствии с <a href="#">152-ФЗ</a></label>
+              </div>
+              <button type="submit" class="btn btn--accent btn--block">Получить оценку</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="hero__image">
+          <img src="https://picsum.photos/600/450?random=1" alt="Профессиональная уборка помещений" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Advantages === -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Почему выбирают нас</h2>
+      <p class="section-subtitle">9 лет опыта, проверенные средства и прозрачные цены</p>
+
+      <div class="advantages__grid">
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Уборка за 2-4 часа</h3>
+          <p class="advantage-card__text">Бригада из 2-3 человек приезжает с полным комплектом оборудования и профессиональной химии</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Гарантия качества</h3>
+          <p class="advantage-card__text">Если результат не устроит — переделаем бесплатно в течение 24 часов после уборки</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Безопасные средства</h3>
+          <p class="advantage-card__text">Гипоаллергенная сертифицированная химия. Безопасно для детей и домашних животных</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Фиксированная цена</h3>
+          <p class="advantage-card__text">Стоимость озвучиваем до начала работ. Никаких скрытых доплат и сюрпризов</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Проверенный персонал</h3>
+          <p class="advantage-card__text">Все сотрудники проходят проверку, обучение и работают по договору с материальной ответственностью</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+          </div>
+          <h3 class="advantage-card__title">Скидки постоянным</h3>
+          <p class="advantage-card__text">Программа лояльности: от 10% скидки на каждую последующую уборку при регулярном обслуживании</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Service Catalog === -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <h2 class="section-title">Наши услуги</h2>
+      <p class="section-subtitle">Полный спектр клининговых услуг для частных и коммерческих клиентов</p>
+
+      <div class="services__grid">
+        <!-- Category 1 -->
+        <div class="service-category">
+          <div class="service-category__header">
+            <div class="service-category__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="service-category__title">Уборка квартир</h3>
+          </div>
+          <div class="service-category__list">
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Поддерживающая уборка
+              </span>
+              <span class="service-category__item-price">от 2 500 ₽</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Генеральная уборка
+              </span>
+              <span class="service-category__item-price">от 4 500 ₽</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Уборка после ремонта
+              </span>
+              <span class="service-category__item-price">от 5 500 ₽</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 2 -->
+        <div class="service-category">
+          <div class="service-category__header">
+            <div class="service-category__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3 class="service-category__title">Уборка офисов</h3>
+          </div>
+          <div class="service-category__list">
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Ежедневная уборка
+              </span>
+              <span class="service-category__item-price">от 150 ₽/м²</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Генеральная уборка офиса
+              </span>
+              <span class="service-category__item-price">от 250 ₽/м²</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Уборка после мероприятий
+              </span>
+              <span class="service-category__item-price">от 200 ₽/м²</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 3 -->
+        <div class="service-category">
+          <div class="service-category__header">
+            <div class="service-category__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            </div>
+            <h3 class="service-category__title">Мытьё окон</h3>
+          </div>
+          <div class="service-category__list">
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Окна в квартире
+              </span>
+              <span class="service-category__item-price">от 350 ₽/окно</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Панорамное остекление
+              </span>
+              <span class="service-category__item-price">от 500 ₽/м²</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Витрины и фасады
+              </span>
+              <span class="service-category__item-price">от 450 ₽/м²</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Category 4 -->
+        <div class="service-category">
+          <div class="service-category__header">
+            <div class="service-category__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2 12 5.5 8 2l-4.38 1.46a1 1 0 0 0-.62.94v15.2a1 1 0 0 0 .62.94L8 22l4-3.5 4 3.5 4.38-1.46a1 1 0 0 0 .62-.94V4.4a1 1 0 0 0-.62-.94z"/></svg>
+            </div>
+            <h3 class="service-category__title">Химчистка</h3>
+          </div>
+          <div class="service-category__list">
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Химчистка дивана
+              </span>
+              <span class="service-category__item-price">от 2 000 ₽</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Химчистка ковров
+              </span>
+              <span class="service-category__item-price">от 200 ₽/м²</span>
+            </a>
+            <a href="service.html" class="service-category__item">
+              <span class="service-category__item-name">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                Химчистка матраса
+              </span>
+              <span class="service-category__item-price">от 1 500 ₽</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Price Preview === -->
+  <section class="section" id="prices">
+    <div class="container">
+      <h2 class="section-title">Популярные услуги и цены</h2>
+      <p class="section-subtitle">Точную стоимость рассчитаем после осмотра или по фото</p>
+
+      <div class="price-table-wrap">
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>Услуга</th>
+              <th>1-комн.</th>
+              <th>2-комн.</th>
+              <th>3-комн.</th>
+              <th>Срок</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Поддерживающая уборка</td>
+              <td class="price-value">2 500 ₽</td>
+              <td class="price-value">3 200 ₽</td>
+              <td class="price-value">4 000 ₽</td>
+              <td>2-3 часа</td>
+            </tr>
+            <tr>
+              <td>Генеральная уборка</td>
+              <td class="price-value">4 500 ₽</td>
+              <td class="price-value">5 800 ₽</td>
+              <td class="price-value">7 200 ₽</td>
+              <td>4-6 часов</td>
+            </tr>
+            <tr>
+              <td>Уборка после ремонта</td>
+              <td class="price-value">5 500 ₽</td>
+              <td class="price-value">7 000 ₽</td>
+              <td class="price-value">9 000 ₽</td>
+              <td>6-8 часов</td>
+            </tr>
+            <tr>
+              <td>Мытьё окон (за окно)</td>
+              <td class="price-value" colspan="3">350 — 600 ₽</td>
+              <td>30-60 мин</td>
+            </tr>
+            <tr>
+              <td>Химчистка дивана</td>
+              <td class="price-value" colspan="3">2 000 — 4 500 ₽</td>
+              <td>1-2 часа</td>
+            </tr>
+            <tr>
+              <td>Химчистка ковра (за м²)</td>
+              <td class="price-value" colspan="3">200 — 400 ₽</td>
+              <td>1-3 часа</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="price-link">
+        <a href="prices.html" class="btn btn--outline">Полный прайс-лист</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Our Works === -->
+  <section class="section section--alt" id="works">
+    <div class="container">
+      <h2 class="section-title">Наши работы</h2>
+      <p class="section-subtitle">Реальные результаты уборки наших клиентов</p>
+
+      <div class="works__grid">
+        <div class="work-card">
+          <div class="work-card__image">
+            <img src="https://picsum.photos/400/270?random=10" alt="Генеральная уборка квартиры" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Генеральная уборка 3-комнатной</h3>
+            <div class="work-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Москва, Хамовники
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                5 часов
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image">
+            <img src="https://picsum.photos/400/270?random=11" alt="Уборка офиса" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Ежедневная уборка офиса 200 м²</h3>
+            <div class="work-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Москва-Сити
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                3 часа/день
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image">
+            <img src="https://picsum.photos/400/270?random=12" alt="Уборка после ремонта" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Уборка после капремонта</h3>
+            <div class="work-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Красногорск
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                8 часов
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image">
+            <img src="https://picsum.photos/400/270?random=13" alt="Химчистка мебели" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Химчистка углового дивана</h3>
+            <div class="work-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Москва, Марьино
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                2 часа
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image">
+            <img src="https://picsum.photos/400/270?random=14" alt="Мытьё окон" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Мытьё панорамных окон</h3>
+            <div class="work-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Москва, Пресня
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                4 часа
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-card__image">
+            <img src="https://picsum.photos/400/270?random=15" alt="Уборка коттеджа" loading="lazy">
+          </div>
+          <div class="work-card__body">
+            <h3 class="work-card__title">Генеральная уборка коттеджа</h3>
+            <div class="work-card__meta">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Одинцово
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                10 часов
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Reviews === -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <h2 class="section-title">Отзывы клиентов</h2>
+      <p class="section-subtitle">Что говорят о нас люди, которые уже воспользовались нашими услугами</p>
+
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="review-card__text">Заказывали генеральную уборку перед Новым годом. Бригада приехала вовремя, убрали квартиру до блеска за 4 часа. Особенно порадовало, что помыли даже за холодильником и внутри шкафов. Рекомендую!</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">АМ</div>
+            <div>
+              <div class="review-card__name">Анна Михайлова</div>
+              <div class="review-card__role">Квартира, Тверская</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="review-card__text">Обслуживаем с ними наш офис уже полгода. Ежедневная уборка на высшем уровне. Менеджер всегда на связи, любые вопросы решаются моментально. Очень довольны сотрудничеством.</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">ДК</div>
+            <div>
+              <div class="review-card__name">Дмитрий Козлов</div>
+              <div class="review-card__role">Офис, Москва-Сити</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="review-card__text">После ремонта квартира была в ужасном состоянии: пыль, разводы, следы от стройматериалов. Ребята справились отлично — ни одного замечания. Химчистку дивана тоже сделали на месте.</p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">ЕС</div>
+            <div>
+              <div class="review-card__name">Елена Соколова</div>
+              <div class="review-card__role">Квартира, Красногорск</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === FAQ === -->
+  <section class="section section--alt" id="faq">
+    <div class="container">
+      <h2 class="section-title">Частые вопросы</h2>
+      <p class="section-subtitle">Ответы на вопросы, которые нам задают чаще всего</p>
+
+      <div class="faq__list">
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Какие средства вы используете для уборки?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Мы используем профессиональные сертифицированные средства от ведущих производителей: Karcher, Pro-Brite, Grass. Все средства гипоаллергенны и безопасны для детей и домашних животных. По запросу можем использовать экологичную линейку без содержания хлора и агрессивных компонентов.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Нужно ли мне быть дома во время уборки?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Нет, ваше присутствие необязательно. Многие клиенты передают ключи или оставляют доступ по домофону. Все наши сотрудники прошли проверку и работают по договору с материальной ответственностью. После уборки мы отправляем фотоотчет в мессенджер.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Сколько времени занимает генеральная уборка?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Генеральная уборка однокомнатной квартиры занимает 4-5 часов, двухкомнатной — 5-6 часов, трехкомнатной — 6-8 часов. На время влияет степень загрязнения и дополнительные услуги (мытье окон, химчистка мебели). Бригада из 2-3 человек работает параллельно.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Что делать, если результат уборки не устроил?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Мы гарантируем качество работы. Если вы обнаружили недочеты, свяжитесь с нами в течение 24 часов — бригада приедет и бесплатно все исправит. Это наша стандартная гарантия, она прописана в договоре.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Работаете ли вы по выходным и праздникам?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Да, мы работаем ежедневно с 7:00 до 22:00, включая выходные и праздничные дни. Стоимость услуг в выходные и праздники не меняется. Заявку можно оставить в любое время — мы перезвоним в рабочие часы.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Можно ли заказать уборку на сегодня?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Да, мы принимаем срочные заказы. Если бригада свободна, можем приехать в течение 2-3 часов после оформления заявки. Для срочных заказов рекомендуем звонить по телефону, а не оставлять заявку на сайте — так быстрее.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" type="button">
+            Как оплатить услуги?
+            <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <div class="faq-item__answer-inner">
+              Принимаем наличные, банковские карты, переводы по номеру телефона (СБП). Для юридических лиц — безналичный расчет по счету с НДС или без. Оплата производится после выполнения работ и вашего подтверждения качества.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Blog Preview === -->
+  <section class="section" id="blog">
+    <div class="container">
+      <h2 class="section-title">Полезные статьи</h2>
+      <p class="section-subtitle">Советы по уборке и уходу за домом от наших экспертов</p>
+
+      <div class="blog__grid">
+        <article class="blog-card">
+          <div class="blog-card__image">
+            <img src="https://picsum.photos/400/225?random=20" alt="Статья про уборку кухни" loading="lazy">
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__tag">Советы</span>
+            <h3 class="blog-card__title">10 правил идеальной кухни: как поддерживать чистоту каждый день</h3>
+            <p class="blog-card__excerpt">Простые привычки, которые помогут сохранить кухню в порядке без генеральных уборок каждую неделю.</p>
+            <span class="blog-card__date">12 марта 2026</span>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__image">
+            <img src="https://picsum.photos/400/225?random=21" alt="Статья про средства для уборки" loading="lazy">
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__tag">Обзоры</span>
+            <h3 class="blog-card__title">Чем мыть ламинат: сравнение 5 популярных средств</h3>
+            <p class="blog-card__excerpt">Разбираемся, какие средства действительно подходят для ламината, а какие могут навредить покрытию.</p>
+            <span class="blog-card__date">28 февраля 2026</span>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__image">
+            <img src="https://picsum.photos/400/225?random=22" alt="Статья про уборку после ремонта" loading="lazy">
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__tag">Лайфхаки</span>
+            <h3 class="blog-card__title">Уборка после ремонта: что можно сделать самому, а что лучше доверить профессионалам</h3>
+            <p class="blog-card__excerpt">Пошаговый план действий после ремонта и честный ответ, когда стоит вызвать клининг.</p>
+            <span class="blog-card__date">15 февраля 2026</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === CTA Block === -->
+  <section class="section cta" id="order">
+    <div class="container">
+      <h2 class="section-title">Оставьте заявку прямо сейчас</h2>
+      <p class="section-subtitle">Перезвоним в течение 15 минут и рассчитаем стоимость</p>
+
+      <div class="cta__form">
+        <form data-demo-form>
+          <div class="form-group">
+            <label for="cta-name">Ваше имя</label>
+            <input type="text" id="cta-name" class="form-input" placeholder="Как к вам обращаться?" required>
+          </div>
+          <div class="form-group">
+            <label for="cta-phone">Телефон</label>
+            <input type="tel" id="cta-phone" class="form-input" placeholder="+7 (___) ___-__-__" required>
+          </div>
+          <div class="form-group">
+            <label for="cta-message">Комментарий</label>
+            <textarea id="cta-message" class="form-input" placeholder="Опишите, что нужно убрать" rows="3"></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" id="cta-agree" required>
+            <label for="cta-agree">Согласен на обработку персональных данных в соответствии с <a href="#">152-ФЗ</a></label>
+          </div>
+          <button type="submit" class="btn btn--accent btn--block btn--lg">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- === Footer === -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="8" fill="#2E7D5B"/>
+              <path d="M8 16L13 21L24 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Чистый Формат
+          </div>
+          <p class="footer__desc">Профессиональные клининговые услуги в Москве и Московской области с 2015 года. Уборка квартир, офисов, коттеджей.</p>
+          <div class="footer__socials">
+            <a href="#" aria-label="ВКонтакте">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 3H3.553A.553.553 0 0 0 3 3.553v16.894c0 .305.248.553.553.553h16.894a.553.553 0 0 0 .553-.553V3.553A.553.553 0 0 0 20.447 3ZM15.35 16.92h-1.5s-.36-.04-.54-.25c-.16-.18-.62-2.02-.62-2.02s-.43-1.32-1.01-.15c-.2.4-.15 1.64-.15 1.64s0 .27-.12.42c-.14.15-.4.18-.4.18H9.96s-2.28.14-4.28-2c-2.18-2.33-4.1-6.96-4.1-6.96s-.07-.19.01-.28c.09-.1.33-.11.33-.11l2.02-.01s.19.03.32.12c.11.08.17.22.17.22s.32.81.74 1.55c.84 1.46 1.22 1.77 1.48 1.63.37-.2.26-1.84.26-1.84s.01-1.19-.37-1.42c-.3-.18-.76-.21-.82-.21-.06 0 .1-.14.41-.2.47-.09 1.3-.1 2.28-.01.76.06 1 .44 1 .44v2.8s-.05 1.23.55.87c.26-.16.87-1.11 1.5-2.26.35-.66.63-1.39.63-1.39s.06-.13.14-.18c.09-.06.21-.05.21-.05l2.12-.01s.64-.08.74.21c.11.31-.25 1.03-1.14 2.2-.15.19-.28.36-.39.5-.83 1.1-.83 1.16.03 1.96 1.64 1.53 1.98 2.27 2.04 2.36.52.87-.58.94-.58.94Z"/></svg>
+            </a>
+            <a href="#" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0h-.056Zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635Z"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h4>Услуги</h4>
+          <ul>
+            <li><a href="service.html">Уборка квартир</a></li>
+            <li><a href="service.html">Уборка офисов</a></li>
+            <li><a href="service.html">Мытьё окон</a></li>
+            <li><a href="service.html">Химчистка мебели</a></li>
+            <li><a href="service.html">После ремонта</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#works">Наши работы</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#blog">Блог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li><a href="mailto:info@chistyformat.ru">info@chistyformat.ru</a></li>
+            <li><a href="#">г. Москва, ул. Примерная, 10</a></li>
+            <li><a href="#">Пн-Вс: 7:00 — 22:00</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2015 — 2026 Чистый Формат. Все права защищены.</span>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- === WhatsApp FAB === -->
+  <a href="https://wa.me/74951234567" class="whatsapp-fab" aria-label="Написать в WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+
+  <!-- === Back to Top === -->
+  <a href="#" class="back-to-top" aria-label="Наверх">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </a>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
